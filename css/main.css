@@ -1,0 +1,44 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.liste {
+  border: solid black 1px;
+  text-align: center;
+  margin: 0 25% 0 25%;
+}
+
+fieldset {
+  margin: 5%;
+}
+
+#element, #rm {
+  border-color: #ccc;
+}
+
+ul li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul li {
+  text-align: right;
+  margin-bottom: 2px;
+}
+
+ul li p {
+  text-align: left;
+  float: left;
+}
+
+ul li .supprimer {
+  margin-right: 5%;
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+}
